@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#perfil_image {
+    width: 10rem;
+    border-radius: 100%;
+}
