@@ -1,8 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Ubuntu:wght@300&display=swap');
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0;  
 }
-#perfil_image {
-    width: 10rem;
+body {
+    background-color: black;
+}
+.countainer {
+    width: 800px;
+    padding: 100px;
+    margin: 120px auto;
+    box-shadow: 5px 5px 10px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), .2);
+    background-color: #0DAB76;
+    color: #053B06;
+    border-radius: 10%;
+    
+}
+/* start header */
+header.countainer {
+    padding: 20px;
+    margin: 0;
+    background-color: #139A43;
+    width: 100%;
+    height: 180px;
+    position: relative;
+    border-radius: 0 0 10% 10%;
+}
+header.countainer h1{
+    text-align: center;
+    text-decoration: underline;
+}
+header.countainer .perfil_image {
+    width: 280px;
     border-radius: 100%;
+    position: absolute;
+    bottom: -100px;
+    border: 5px solid #139A43;
+}
+header.countainer nav.menu {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+header.countainer nav.menu ul li{
+    display: inline;
+    color: #0DAB76;
+    background-color: #000000;
+    padding: 10px;
+    margin-right: 10px;
+    transition: .6s;
+    border: 5px solid #139A43;
+}
+header.countainer nav.menu ul li:hover{
+    font-size: 14pt;
+}
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-family: 'Ubuntu', sans-serif;
+}
+a {
+    text-decoration: none;
 }
